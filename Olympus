@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meus Sistemas de RPG</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            background-color: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #f0f0f0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #292929;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            border-bottom: 2px solid #f39c12;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #1c1c1c;
+            padding: 10px;
+            text-align: center;
+            color: #aaa;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .sistema {
+            background-color: #1e1e1e;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #444;
+            border-radius: 5px;
+        }
+        .sistema h3 {
+            margin: 0 0 10px;
+        }
+        .sistema p {
+            margin: 5px 0;
+        }
+        .btn {
+            background-color: #f39c12;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meus Sistemas de RPG</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#sistemas">Sistemas de RPG</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="home">
+        <h2>Bem-vindo!</h2>
+        <p>Este é o meu site pessoal onde compartilho meus sistemas de RPG. Explore e aproveite os recursos criados para aventuras épicas!</p>
+    </section>
+
+    <section id="sistemas">
+        <h2>Sistemas de RPG</h2>
+
+        <!-- Aqui você pode adicionar seus sistemas -->
+        <div class="sistema">
+            <h3>Sistema 1: Nome do Sistema</h3>
+            <p>Descrição breve do sistema.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+        <div class="sistema">
+            <h3>Sistema 2: Nome do Sistema</h3>
+            <p>Descrição breve do sistema.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+        <!-- Adicione mais sistemas conforme necessário -->
+
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Se você quiser entrar em contato comigo, envie um e-mail para <a href="mailto:seuemail@exemplo.com" style="color: #f39c12;">seuemail@exemplo.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meus Sistemas de RPG - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
